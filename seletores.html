@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceitos iniciais CSS</title>
+    <style>
+        *{  
+    font-family: sans-serif;
+    font-optical-sizing: auto;    
+}
+    body{
+        margin: 0;
+        padding: 0;
+}
+    #titulo{
+        background-color: azure;
+}
+    #parag1{
+        background-color: blueviolet;
+}
+    #parag2{
+        background-color: aqua;
+}
+    #parag3{
+        background-color: bisque;
+}
+    #parag4{
+        background-color: blue;
+}
+    #parag5{
+        background-color: black;
+        color: white;
+}
+    .primeiraclasse{
+        background-color: rgb(203, 95, 95);
+}
+    [title="primeiro"]{
+        color:red;
+}
+    [title="segundo"]{
+        color: blue;
+}
+    </style>
+</head>
+<body>
+    <h1 title="primeiro">Lorem Ipsum</h1>
+    <h2 id="titulo" title="segundo">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h2>
+    <p id="parag1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum non sem vel consectetur. Phasellus eros enim, 
+        aliquam a commodo vel, venenatis eu felis. Vestibulum congue quis velit at cursus. Proin dapibus et neque id aliquam. Proin 
+        sagittis sapien ut leo interdum pretium. Phasellus posuere dui faucibus, aliquet nunc et, porttitor nulla. Vivamus quam lectus, 
+        dapibus ac dui ac, pharetra pulvinar sapien. In metus tortor, pellentesque at semper sit amet, blandit vitae nulla.</p>
+        <p id="parag2">In auctor enim dapibus, molestie nunc sollicitudin, semper metus. Nulla facilisi. Suspendisse laoreet convallis enim quis consectetur. 
+        Etiam sed consequat turpis. Cras imperdiet enim in sem rhoncus malesuada. Vivamus sed malesuada erat. Vivamus in porttitor nunc. 
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis mattis, lacus at iaculis venenatis, 
+        felis mauris lobortis erat, id vestibulum lacus mi finibus ligula. Phasellus elit leo, sollicitudin at tincidunt sit amet, suscipit 
+        id orci. In sed laoreet erat, nec fringilla dolor. Vestibulum sed ligula consequat, tempus elit sed, facilisis sapien. Vestibulum eu 
+        volutpat arcu.</p>
+        <p id="parag3">Aenean interdum tincidunt velit, a vulputate diam gravida id. Curabitur nec semper orci. Phasellus pulvinar vulputate sem ac 
+        eleifend. Nulla elit orci, aliquam id neque vel, maximus mollis metus. Proin cursus rutrum sapien sed commodo. Aliquam 
+        convallis fringilla ipsum et ultrices. Suspendisse et ante ut nisl tristique faucibus. Nulla at purus efficitur, ullamcorper 
+        risus et, bibendum nisl. Mauris aliquet magna eget eros vestibulum, sed euismod metus pharetra. Morbi pretium arcu nec diam 
+        faucibus accumsan.</p>
+        <p id="parag4">Nullam et sagittis augue. Mauris sit amet eros nisl. Duis aliquet libero vel sagittis malesuada. Mauris id tristique tortor. 
+        Sed orci eros, rutrum sit amet molestie eget, elementum id elit. Aenean quis ante nisl. Nullam egestas ac tellus quis blandit. 
+        Maecenas mauris ipsum, ultricies nec suscipit eget, pretium et enim.</p>
+        <p>Maecenas vehicula neque sem, sed malesuada erat congue sed. Aenean a dolor id dolor luctus faucibus. Integer malesuada mi 
+        vitae ipsum elementum dictum ut sit amet magna. Fusce porta porta eros, ac ultricies dolor gravida non. Nunc metus felis, 
+        tristique non nunc nec, feugiat consectetur magna. Mauris luctus nisi a mauris pulvinar, id venenatis orci viverra. Curabitur 
+        libero leo, suscipit quis tincidunt ut, ornare eget mauris. In hac habitasse platea dictumst. Nunc a sapien ut justo facilisis
+        bibendum.</p>
+        <hr>
+        <h1 title="primeiro">Lorem Ipsum</h1>
+    <h2 class="primeiraclasse">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h2>
+    <p id="parag1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum non sem vel consectetur. Phasellus eros enim, 
+        aliquam a commodo vel, venenatis eu felis. Vestibulum congue quis velit at cursus. Proin dapibus et neque id aliquam. Proin 
+        sagittis sapien ut leo interdum pretium. Phasellus posuere dui faucibus, aliquet nunc et, porttitor nulla. Vivamus quam lectus, 
+        dapibus ac dui ac, pharetra pulvinar sapien. In metus tortor, pellentesque at semper sit amet, blandit vitae nulla.</p>
+        <p  id="parag5">In auctor enim dapibus, molestie nunc sollicitudin, semper metus. Nulla facilisi. Suspendisse laoreet convallis enim quis consectetur. 
+        Etiam sed consequat turpis. Cras imperdiet enim in sem rhoncus malesuada. Vivamus sed malesuada erat. Vivamus in porttitor nunc. 
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis mattis, lacus at iaculis venenatis, 
+        felis mauris lobortis erat, id vestibulum lacus mi finibus ligula. Phasellus elit leo, sollicitudin at tincidunt sit amet, suscipit 
+        id orci. In sed laoreet erat, nec fringilla dolor. Vestibulum sed ligula consequat, tempus elit sed, facilisis sapien. Vestibulum eu 
+        volutpat arcu.</p>
+        <p>Aenean interdum tincidunt velit, a vulputate diam gravida id. Curabitur nec semper orci. Phasellus pulvinar vulputate sem ac 
+        eleifend. Nulla elit orci, aliquam id neque vel, maximus mollis metus. Proin cursus rutrum sapien sed commodo. Aliquam 
+        convallis fringilla ipsum et ultrices. Suspendisse et ante ut nisl tristique faucibus. Nulla at purus efficitur, ullamcorper 
+        risus et, bibendum nisl. Mauris aliquet magna eget eros vestibulum, sed euismod metus pharetra. Morbi pretium arcu nec diam 
+        faucibus accumsan.</p>
+        <p>Nullam et sagittis augue. Mauris sit amet eros nisl. Duis aliquet libero vel sagittis malesuada. Mauris id tristique tortor. 
+        Sed orci eros, rutrum sit amet molestie eget, elementum id elit. Aenean quis ante nisl. Nullam egestas ac tellus quis blandit. 
+        Maecenas mauris ipsum, ultricies nec suscipit eget, pretium et enim.</p>
+        <p class="primeiraclasse">Maecenas vehicula neque sem, sed malesuada erat congue sed. Aenean a dolor id dolor luctus faucibus. Integer malesuada mi 
+        vitae ipsum elementum dictum ut sit amet magna. Fusce porta porta eros, ac ultricies dolor gravida non. Nunc metus felis, 
+        tristique non nunc nec, feugiat consectetur magna. Mauris luctus nisi a mauris pulvinar, id venenatis orci viverra. Curabitur 
+        libero leo, suscipit quis tincidunt ut, ornare eget mauris. In hac habitasse platea dictumst. Nunc a sapien ut justo facilisis
+        bibendum.</p>
+</body>
+</html>
