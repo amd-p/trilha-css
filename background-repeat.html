@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Repeat</title>
+    <style>
+        div{
+            margin-bottom: 30px;
+        }
+        .exemplo{
+            width: 300px;
+            height: 300px;
+            background-image: url('https://media.bleacherreport.com/image/upload/v1711140324/vccnuckwwx9sowsrg3dg.jpg');
+            background-size: 120px;
+            border: 1px solid red;
+        }
+        #repeat-x{
+            background-repeat: repeat-x;
+        }
+        #repeat-y{
+            background-repeat: repeat-y;
+        }
+        #space{
+            background-repeat: space;
+        }
+        #roud{
+            background-repeat: round;
+        }
+        #no-repeat{
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <code>background-repeat: repeat;</code>
+    <div class="exemplo"></div>
+    <br>
+    <code>background-repeat: repeat-x;</code>
+    <div id="repeat-x" class="exemplo"></div>
+    <br>
+    <code>background-repeat: repeat-y;</code>
+    <div id="repeat-y" class="exemplo"></div>
+    <br>
+    <code>background-repeat: space;</code>
+    <div id="space" class="exemplo"></div>
+    <br>
+    <code>background-repeat: round;</code>
+    <div id="round" class="exemplo"></div>
+    <br>
+    <code>background-repeat: no-repeat;</i></code>
+    <div id="no-repeat" class="exemplo"></div>
+    <br>
+</body>
+</html>

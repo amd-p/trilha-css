@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Clip</title>
+    <style>
+        div{
+            margin-bottom: 30px;
+        }
+        .exemplo{
+            width: 300px;
+            height: 300px;
+            border: 15px dashed palegoldenrod;
+            color: white; 
+            padding: 30px;
+            font-size: 40px;
+            font-weight: 900;
+            text-align: center;
+            background-image: url('https://i.etsystatic.com/35083463/r/il/8aefb9/3819665303/il_570xN.3819665303_stck.jpg')
+        }
+        #padding-box{
+            background-clip: padding-box;
+        }
+        #border-box{
+            background-clip: border-box;
+        }
+        #content-box{
+            background-clip: content-box;
+        }
+        #text{
+            -webkit-background-clip: text;
+            color: transparent;
+            border: 5px solid black;
+            background-clip: text;
+        }
+    </style>
+</head>
+
+<body>
+    <code>background-clip: padding-box;</code>
+    <div id="padding-box" class="exemplo">Trilha CSS</div>
+    <br>
+    <code>background-clip: border-box;</code>
+    <div id="border-box" class="exemplo">Trilha CSS</div>
+    <br>
+    <code>background-clip: content-box;</code>
+    <div id="content-box" class="exemplo">Trilha CSS</div>
+    <br>
+    <code>background-clip: text;</code>
+    <div id="text" class="exemplo">Trilha CSS</div>
+    <br>
+</body>
+</html>

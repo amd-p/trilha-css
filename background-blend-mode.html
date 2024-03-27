@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Clip</title>
+    <style>
+        div{
+            margin-bottom: 30px;
+            width: 300px;
+            height: 300px;
+            border: 15px dashed palegoldenrod;
+            color: white; 
+            padding: 30px;
+            font-size: 40px;
+            font-weight: 900;
+            text-align: center;
+            background-color: gray;
+            background-image: url('https://i.etsystatic.com/35083463/r/il/8aefb9/3819665303/il_570xN.3819665303_stck.jpg')
+        }
+        #mode-1{
+            background-blend-mode: multiply;
+        }
+        #mode-2{
+            background-blend-mode: overlay;
+        }
+        #mode-3{
+            background-blend-mode: color-burn;
+        }
+        #mode-4{
+            background-blend-mode: difference;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mode-1">Trilha CSS</div>
+    <br>
+    <div id="mode-2">Trilha CSS</div>
+    <br>
+    <div id="mode-3">Trilha CSS</div>
+    <br>
+    <div id="mode-4">Trilha CSS</div>
+    <br>
+</body>
+</html>
