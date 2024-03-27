@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas com Imagens</title>
+    <style>
+        .exemplo{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 10px solid;
+            margin: 50px;
+        }
+        #source{
+            border-image-source: url('https://www.pngmart.com/files/23/Las-Vegas-Raiders-Logo-PNG-Clipart.png');
+        }
+        #width{
+            border-image-source: linear-gradient(lightblue, lightgreen);
+            border-image-repeat: repeat;
+            border-image-slice: 10;
+            border-image-width: 10px 20px 30px 40px;
+        }
+        #repeat{
+            border-image-source: url('https://cdn.bnws3.com.br/tocadosbordados.com/image/cache/data/novoscodigos4/patch-estrela-5x5-cm-escolha-a-cor-cod-5328-01-2023-04-28-15-38-02-926x926.PNG');
+            border-image-slice: 205;
+            border-image-repeat: round;
+        }
+        #outset{
+            border-image-source: url('https://cdn.bnws3.com.br/tocadosbordados.com/image/cache/data/novoscodigos4/patch-estrela-5x5-cm-escolha-a-cor-cod-5328-01-2023-04-28-15-38-02-926x926.PNG');
+            border-image-slice: 100;
+            border-image-outset: 20px;
+        }
+        #slice{
+            border-image-source: linear-gradient(red, orange);
+            border-image-slice: 10;
+        }
+        #resumido{
+            border-image: linear-gradient(red, orange) 169 / 20px 30px 40px 50px / 1 round;
+        }
+    </style>
+    <body>
+        <h1>Bordas com Imagens</h1>
+        <p>Podemos definir as configurações de nossas bordas atráves das propriedades:</p>
+        <ul>
+            <li>border-image-source</li>
+            <li>border-image-width</li>
+            <li>border-image-repeat</li>
+            <li>border-image-outset</li>
+            <li>border-image-slice</li>
+        </ul>
+        <h2>Exemplos:</h2><br>
+        <code>border-image-source:</code>
+        <div id="source" class="exemplo"></div>
+        <br>
+        <code>border-image-width:</code>
+        <div id="width" class="exemplo"></div>
+        <br>
+        <code>border-image-repeat:</code>
+        <div id="repeat" class="exemplo"></div>
+        <br>
+        <code>border-image-outset</code>
+        <div id="outset" class="exemplo"></div>
+        <br>
+        <code>border-image-slice</code>
+        <div id="slice" class="exemplo"></div>
+        <h2>Exemplo resumido:</h2>
+        <div id="resumido" class="exemplo"></div>
+    </body>
+    </html>
